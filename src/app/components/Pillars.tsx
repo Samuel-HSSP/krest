@@ -29,7 +29,7 @@ icon: Layers
 
 export default function Pillars() {
 return (
-<div className="grid md:grid-cols-2 gap-6">
+<div className="grid md:grid-cols-2 gap-6 px-5">
 {pillars.map((p, i) => (
 <motion.div key={p.title} initial={{ opacity: 0, y: 8 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="k-card">
 <div className="flex items-start gap-4">

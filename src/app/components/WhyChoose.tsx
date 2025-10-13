@@ -12,7 +12,7 @@ const reasons = [
 
 export default function WhyChoose() {
 return (
-<div className="grid md:grid-cols-2 gap-6 items-start">
+<div className="grid md:grid-cols-2 gap-6 items-start px-5">
 <div>
 <h2 className="text-2xl font-bold">Why Leaders Choose Krest</h2>
 <p className="mt-4 text-slate-600">We don’t just deliver documents. We help you build the narrative and strategy that gets results.</p>
@@ -34,7 +34,7 @@ return (
 </div>
 
 
-<div className="k-card">
+<div className="k-card mt-5">
 <h3 className="text-lg font-semibold">Our Process</h3>
 <ol className="mt-4 text-sm space-y-3 text-slate-700">
 <li><strong>Discovery</strong> — 30-min partner call + brief workshop.</li>

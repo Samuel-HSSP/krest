@@ -1,6 +1,6 @@
 export default function Partners() {
 return (
-<div id="team">
+<div id="team" className="px-5">
 <h3 className="text-2xl font-semibold">Meet the Partners</h3>
 <p className="mt-2 text-sm text-slate-600">Led by strategists, backed by specialists.</p>
 

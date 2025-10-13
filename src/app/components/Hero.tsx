@@ -13,7 +13,7 @@ const item = { hidden: { opacity: 0, y: 10 }, show: { opacity: 1, y: 0 } }
 
 export default function Hero() {
 return (
-<section className="hero-grad py-20">
+<section className="hero-grad py-20 px-5">
 <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 <motion.div initial="hidden" animate="show" variants={container}>
 <motion.h1 variants={item} className="text-4xl md:text-5xl font-extrabold leading-tight">

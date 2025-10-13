@@ -4,12 +4,13 @@ import SignatureSolutions from '@/app/components/SignatureSolutions'
 import WhyChoose from '@/app/components/WhyChoose'
 import Partners from '@/app/components/Partners'
 import Footer from '@/app/components/Footer'
+import Navbar from './components/Navbar'
 
 
 export default function Home() {
 return (
 <main className='flex flex-col items-center'>
-  <header className="container pt-8">
+  {/* <header className="container pt-8">
     <nav className="flex items-center justify-between py-4">
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 rounded-full bg-gradient-to-br from-krest-500 to-krest-700 flex items-center justify-center text-white font-semibold">K</div>
@@ -22,7 +23,8 @@ return (
         <a className="inline-flex items-center rounded-md border px-4 py-2 text-sm font-medium" href="#contact">Contact</a>
       </div>
     </nav>
-  </header>
+  </header> */}
+  <Navbar />
 
 
   <Hero />

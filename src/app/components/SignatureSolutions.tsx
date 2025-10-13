@@ -23,7 +23,7 @@ bullets: ['2 Long-form Pieces', 'LinkedIn Repackaging', 'Editorial Calendar', 'A
 
 export default function SignatureSolutions() {
 return (
-<div>
+<div className='px-5'>
 <div className="text-center mb-8">
 <h2 className="text-3xl font-extrabold">Productized Expertise</h2>
 <p className="mt-2 text-slate-600">Signature offerings with clear deliverables, partner oversight, and fixed timelines.</p>
